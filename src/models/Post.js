@@ -1,4 +1,3 @@
-import { Int32 } from "mongodb";
 import mongoose from "mongoose";
 
 const { Schema } = mongoose;
@@ -14,7 +13,7 @@ const postSchema = new Schema(
             default: []
         },
         likes: {
-            type: [Int32],
+            type: [Number],
             default: [],
         },
     } 

@@ -3,7 +3,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div>
+    <div className='nav-container'>
       <Link href="/feed">Feed</Link>
       <Link href="/search">Search</Link>
       <Link href="/post">Post</Link>
