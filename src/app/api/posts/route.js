@@ -17,6 +17,4 @@ export const GET = async (request) => {
         return new NextResponse("Database Error", {status: 500});
     }
 
-
-    return new NextResponse("It works", {status: 200});
 }
